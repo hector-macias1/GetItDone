@@ -100,31 +100,6 @@ public class Project {
         try (FileOutputStream fos = new FileOutputStream(path.toFile())) {
             writer.write(projectFile, fos);
         }
-
-        /*try {
-            // Create a project writer
-            ProjectWriter writer = ProjectWriterUtility.getProjectWriter("MPX");
-
-            // Write the project file to the specified path
-            writer.write(projectFile, path.toString());
-        } catch (InstantiationException | IllegalAccessException  e) {
-            throw new MPXJException("Failed to create project writer", e);
-        }
-
-        //File a =
-        //writer.write();*/
-        /*
-        try {
-            // Create a project writer for MPP format
-            ProjectWriter writer = new MPXWriter();
-            
-            File f = new 
-
-            // Write the project file to the specified path
-            writer.write(projectFile, path.toString());
-        } catch (InstantiationException | IllegalAccessException  e) {
-            throw new MPXJException("Failed to create project writer", e);
-        }*/
     }
 
     public String getTitle() {
