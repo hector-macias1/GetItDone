@@ -21,23 +21,6 @@ import java.nio.file.Paths;
 public class GetItDone {
 
     public static void main(String[] args) throws MPXJException, IOException {
-        /*Project project = new Project("Project1", "1234", "a test");
-        project.CreateTeam("B");
-
-        Path path = Paths.get("C:/Users/Hecta/Desktop/Project1.mpp");
-
-        project.load(path);
-
-        System.out.println(project);*/
-        
-        /*TeamMember newguy = new TeamMember("worker", "Hector", "7654", "admin");
-        Task newTask = new Task("Name", 1234567, "description3", "Active");
-        
-        project.getTeam().getMembers().add(newguy);
-        project.getTasks().add(newTask);
-        
-        project.write(path);*/
-        
         MainMenu menu = new MainMenu();
         menu.setVisible(true);
     }
