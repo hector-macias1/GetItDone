@@ -1,0 +1,27 @@
+Copyright Universidad Autónoma de Baja California, 2025
+
+This software is the intellectual property of its author(s) and is protected under applicable copyright laws. All rights are reserved unless otherwise stated.
+
+Third-Party Components
+----------------------
+
+This software makes use of third-party libraries, including:
+
+- **MPXJ**  
+  MPXJ is a Java library for reading and writing project scheduling data (e.g., Microsoft Project, Primavera).  
+  It is distributed under the terms of the GNU Lesser General Public License version 3 (LGPL v3).  
+  You may use MPXJ freely in commercial and non-commercial projects, provided that you comply with the terms of the license.
+
+  MPXJ License: https://www.gnu.org/licenses/lgpl-3.0.html  
+  MPXJ Source Code: https://github.com/joniles/mpxj
+
+Compliance
+----------
+
+This software links to MPXJ dynamically using Maven. In accordance with LGPL v3, this allows users to replace or update the MPXJ library as needed.
+
+No modifications have been made to the MPXJ library. If modified versions were to be used, the modified source would be made available under the terms of the LGPL v3.
+
+You are encouraged to review the license linked above to understand your rights and obligations when using this software and its third-party components.
+
+For any questions, please contact: hmacias54@uabc.edu.mx
